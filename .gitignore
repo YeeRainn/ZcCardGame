@@ -1,0 +1,85 @@
+# 忽略引擎目录
+cocos2d/
+external/
+
+# 忽略编译输出目录
+Debug.win32/
+bin/
+obj/
+lib/
+temp/
+build/
+publish/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+[Bb]in/
+[Oo]bj/
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# 忽略 Visual Studio 用户特定文件
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.vcxproj.user
+*.userosscache
+*.sln.docstates
+
+# 忽略临时文件
+*.swp
+*~
+
+# 忽略打包或生成的文件
+package/
+
+# 忽略由 Visual Studio 生成的文件夹
+.vs/
+.vscode/
+
+# 忽略编译产生的中间文件
+*.ilk
+*.obj
+*.pch
+*.pdb
+*.idb
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.tlog
+*.dep
+*.o
+*.d
+*.intermediate
+
+# 忽略可执行文件和库文件
+*.exe
+*.dll
+*.lib
+
+# 忽略其他生成的文件
+*.psess
+*.vsp
+*.vspx
+*.dbmdl
+*.pfx
+
+# 忽略操作系统生成的垃圾文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 忽略打包或发布目录
+PublishProfiles/
+AppPackages/
